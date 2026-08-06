@@ -18,7 +18,7 @@ function getcount(str:string)
         else
         {
             mymap.set(key,1)
-            console.log("found TWO  "+key);
+            
         }
 
 
@@ -29,10 +29,10 @@ function getcount(str:string)
    
    for(const[key,value] of mymap)
    {
-     console.log(`frequecy of ${key} in string is ${value}`)
+     console.log(`frequency of ${key} in string is ${value}`)
    }
 
 }
 
 
-getcount("qatestmytest");
+getcount("qatestmytest yesy");
